@@ -20,7 +20,7 @@ def quickSort(arr, low, high):
         quickSort(arr, low, pi-1)
         quickSort(arr, pi+1, high)
 
-arr = [10, 8, 3, 18, 4, 1]
+arr = [88, 18, 23, 10, 21, 77, 54]
 n = len(arr)
 quickSort(arr, 0, n-1)
 print("Sorted array is:", *arr)
